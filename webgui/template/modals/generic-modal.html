@@ -1,0 +1,23 @@
+<div class="modal fade" style="display:none;" id="generic_modal" tabindex="-1" role="dialog" aria-labelledby="generic_modal">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h2 class="modal-title">
+					{{ modal_company }}
+				</h2>
+				<h3>
+					<i> {{ modal_name }} </i>
+				</h3>
+			</div>
+
+			<div class="modal-body">
+				{{ modal_text|safe }}
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal"> Fermer </button>
+			</div>
+		</div>
+	</div>
+</div>
